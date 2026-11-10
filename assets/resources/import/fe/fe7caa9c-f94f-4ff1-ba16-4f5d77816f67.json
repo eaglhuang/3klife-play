@@ -1,0 +1,1 @@
+[1,0,0,[["cc.JsonAsset",["_name","json"],1]],[[0,0,1,3]],[[0,"scene-backgrounds",{"backgrounds":[{"id":"bg_normal_day","path":"textures/bg_normal_day","timeOfDay":"day","label":"白天平原"},{"id":"bg_normal_night","path":"textures/bg_normal_night","timeOfDay":"night","label":"夜晚平原"},{"id":"bg_water","path":"textures/bg_water","timeOfDay":"day","label":"水淹戰場"}]}]],0,0,[],[],[]]

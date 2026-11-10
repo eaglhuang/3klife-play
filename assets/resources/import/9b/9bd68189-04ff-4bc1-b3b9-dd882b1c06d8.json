@@ -1,0 +1,1 @@
+[1,0,0,[["cc.JsonAsset",["_name","json"],1]],[[0,0,1,3]],[[0,"rank-progress-screen",{"id":"rank-progress-screen","version":1,"uiId":"RankProgress","layer":"Popup","bundle":"lobby_ui","layout":"rank-progress-main","skin":"rank-progress-default","validation":{"allowMissingSkin":false,"devices":["phone-16-9","phone-19_5-9","tablet-4-3"]}}]],0,0,[],[],[]]

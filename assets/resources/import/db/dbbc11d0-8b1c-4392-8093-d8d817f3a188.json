@@ -1,0 +1,1 @@
+[1,0,0,[["cc.JsonAsset",["_name","json"],1]],[[0,0,1,3]],[[0,"lobby-season-hud-screen",{"id":"lobby-season-hud-screen","version":1,"uiId":"LobbySeasonHud","layer":"Popup","bundle":"lobby_ui","layout":"lobby-season-hud-main","skin":"lobby-season-hud-default","validation":{"allowMissingSkin":false,"devices":["phone-16-9","phone-19_5-9","tablet-4-3"]}}]],0,0,[],[],[]]

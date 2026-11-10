@@ -1,0 +1,1 @@
+[1,0,0,[["cc.JsonAsset",["_name","json"],1]],[[0,0,1,3]],[[0,"deploy-panel-screen",{"id":"deploy-panel-screen","version":1,"uiId":"DeployPanel","layer":"Game","bundle":"battle_ui","layout":"deploy-panel-main","skin":"deploy-panel-default","validation":{"allowMissingSkin":true,"devices":["phone-16-9","phone-19_5-9"]}}]],0,0,[],[],[]]

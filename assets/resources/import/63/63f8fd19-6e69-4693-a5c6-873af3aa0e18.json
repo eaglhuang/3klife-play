@@ -1,0 +1,1 @@
+[1,0,0,[["cc.JsonAsset",["_name","json"],1]],[[0,0,1,3]],[[0,"action-command-screen",{"id":"action-command-screen","version":1,"uiId":"ActionCommandPanel","layer":"Game","bundle":"battle_ui","layout":"action-command-main","skin":"action-command-default","validation":{"allowMissingSkin":true,"devices":["phone-16-9","phone-19_5-9"]}}]],0,0,[],[],[]]

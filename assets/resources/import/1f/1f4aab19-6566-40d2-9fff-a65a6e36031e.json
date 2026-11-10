@@ -1,0 +1,1 @@
+[1,0,0,[["cc.JsonAsset",["_name","json"],1]],[[0,0,1,3]],[[0,"ai-population-config",{"_comment":"AI 族群人口管控設定 — 對應 AIPopulationConfig interface","_spec":"docs/資料中心架構規格書.md §2.6","baseBreedingCap":3,"vitalityPerCapBonus":30,"branchPopulationCap":50,"globalPopulationBudget":500,"maxGenerationDepth":8,"pendingDeleteRetentionSeasons":2}]],0,0,[],[],[]]

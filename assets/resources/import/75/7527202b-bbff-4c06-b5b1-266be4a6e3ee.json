@@ -1,0 +1,1 @@
+[1,0,0,[["cc.JsonAsset",["_name","json"],1]],[[0,0,1,3]],[[0,"season-event-screen",{"id":"season-event-screen","version":1,"uiId":"SeasonEvent","layer":"Popup","bundle":"lobby_ui","layout":"season-event-main","skin":"season-event-default","validation":{"allowMissingSkin":false,"devices":["phone-16-9","phone-19_5-9","tablet-4-3"]}}]],0,0,[],[],[]]

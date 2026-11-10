@@ -1,0 +1,1 @@
+[1,0,0,[["cc.JsonAsset",["_name","json"],1]],[[0,0,1,3]],[[0,"year-report-screen",{"id":"year-report-screen","version":1,"uiId":"YearReport","layer":"Popup","bundle":"lobby_ui","layout":"year-report-main","skin":"year-report-screen.skin","validation":{"allowMissingSkin":false,"devices":["phone-16-9","phone-19_5-9","tablet-4-3"]}}]],0,0,[],[],[]]

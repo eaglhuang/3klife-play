@@ -1,0 +1,1 @@
+[1,0,0,[["cc.JsonAsset",["_name","json"],1]],[[0,0,1,3]],[[0,"lobby-lead-select-screen",{"id":"lobby-lead-select-screen","version":1,"uiId":"LobbyLeadSelect","layer":"Popup","bundle":"lobby_ui","layout":"lobby-lead-select-main","skin":"lobby-lead-select-default","validation":{"allowMissingSkin":false,"devices":["phone-16-9","phone-19_5-9","tablet-4-3"]}}]],0,0,[],[],[]]

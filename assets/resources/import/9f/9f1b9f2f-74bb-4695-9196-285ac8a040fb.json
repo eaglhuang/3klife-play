@@ -1,0 +1,1 @@
+[1,0,0,[["cc.JsonAsset",["_name","json"],1]],[[0,0,1,3]],[[0,"spirit-tally-detail-screen",{"id":"spirit-tally-detail-screen","version":1,"uiId":"SpiritTallyDetail","layer":"Popup","bundle":"lobby_ui","layout":"spirit-tally-detail-main","skin":"spirit-tally-detail-default","validation":{"allowMissingSkin":true,"devices":["phone-16-9","phone-19_5-9","tablet-4-3"]}}]],0,0,[],[],[]]

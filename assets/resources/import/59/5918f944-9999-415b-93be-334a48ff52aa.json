@@ -1,0 +1,1 @@
+[1,0,0,[["cc.JsonAsset",["_name","json"],1]],[[0,0,1,3]],[[0,"journal-hub-screen",{"id":"journal-hub-screen","version":1,"uiId":"JournalHubPanel","layer":"Popup","bundle":"lobby_ui","layout":"journal-hub-main","skin":"journal-hub-screen.skin","validation":{"allowMissingSkin":false,"devices":["phone-16-9","phone-19_5-9","tablet-4-3"]}}]],0,0,[],[],[]]

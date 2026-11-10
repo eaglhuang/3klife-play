@@ -1,0 +1,1 @@
+[1,0,0,[["cc.JsonAsset",["_name","json"],1]],[[0,0,1,3]],[[0,"duel-challenge-screen",{"id":"duel-challenge-screen","version":1,"uiId":"DuelChallenge","layer":"Popup","bundle":"battle_ui","layout":"duel-challenge-main","skin":"duel-challenge-default","validation":{"allowMissingSkin":true,"devices":["phone-16-9","phone-19_5-9"]}}]],0,0,[],[],[]]

@@ -1,0 +1,1 @@
+[1,0,0,[["cc.JsonAsset",["_name","json"],1]],[[0,0,1,3]],[[0,"recruit-hall-screen",{"id":"recruit-hall-screen","version":1,"uiId":"RecruitHall","layer":"Popup","bundle":"lobby_ui","layout":"recruit-hall-main","skin":"recruit-hall-screen.skin","validation":{"allowMissingSkin":false,"devices":["phone-16-9","phone-19_5-9","tablet-4-3"]}}]],0,0,[],[],[]]

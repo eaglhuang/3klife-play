@@ -1,0 +1,1 @@
+[1,0,0,[["cc.JsonAsset",["_name","json"],1]],[[0,0,1,3]],[[0,"network-status-screen",{"id":"network-status-screen","version":1,"uiId":"NetworkStatus","layer":"Game","bundle":"ui_common","layout":"network-status-main","skin":"network-status-default","validation":{"allowMissingSkin":true,"devices":["phone-16-9","phone-19_5-9"]}}]],0,0,[],[],[]]

@@ -1,0 +1,1 @@
+[1,0,0,[["cc.JsonAsset",["_name","json"],1]],[[0,0,1,3]],[[0,"unit-info-panel-screen",{"id":"unit-info-panel-screen","version":1,"uiId":"UnitInfoPanel","layer":"Game","bundle":"battle_ui","layout":"unit-info-panel-main","skin":"unit-info-panel-default","validation":{"allowMissingSkin":true,"devices":["phone-16-9","phone-19_5-9"]}}]],0,0,[],[],[]]

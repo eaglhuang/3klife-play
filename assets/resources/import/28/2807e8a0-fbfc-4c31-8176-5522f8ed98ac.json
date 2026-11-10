@@ -1,0 +1,1 @@
+[1,0,0,[["cc.JsonAsset",["_name","json"],1]],[[0,0,1,3]],[[0,"lobby-officer-hud-screen",{"id":"lobby-officer-hud-screen","version":1,"uiId":"LobbyOfficerHud","layer":"Popup","bundle":"lobby_ui","layout":"lobby-officer-hud-main","skin":"lobby-officer-hud-default","validation":{"allowMissingSkin":false,"devices":["phone-16-9","phone-19_5-9","tablet-4-3"]}}]],0,0,[],[],[]]
