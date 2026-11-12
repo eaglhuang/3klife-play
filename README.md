@@ -2,7 +2,7 @@
 
 試玩網址：https://eaglhuang.github.io/3klife-play/
 
-來源：3KLife master `5518ad89a`（含 #2100 啟動底圖，不再露出灰底舊標題）
+來源：3KLife master `6f33e5650`（含 #2100 啟動底圖、#2102 轉蛋重試／對話泡泡／名牌／新手日報）
 - 建置：Cocos Creator 3.8.8，web-desktop，release，起始場景 LoginScene。
 - 新手身分試玩：用無痕視窗開啟，或清除本站資料（存檔存在瀏覽器）。
 - 本 repo 只放建置產物，不接受程式修改；問題請回報到主 repo。
