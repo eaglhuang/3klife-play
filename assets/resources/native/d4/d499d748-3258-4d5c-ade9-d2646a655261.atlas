@@ -1,0 +1,83 @@
+char2_1.png
+size: 512,512
+filter: Linear,Linear
+pma: false
+pony
+bounds: 2,2,421,378
+spear1
+bounds: 427,2,44,313
+pauldron_r
+bounds: 2,384,142,112
+view_back/pauldron_r
+bounds: 148,384,142,112
+pauldron_l
+bounds: 427,319,72,110
+view_back/pauldron_l
+bounds: 294,384,72,110
+r_hand
+bounds: 370,433,74,75
+
+char2_2.png
+size: 512,512
+filter: Linear,Linear
+pma: false
+view_back/pony
+bounds: 2,2,421,378
+spear2
+bounds: 427,2,44,313
+r_bracer
+bounds: 2,384,86,98
+view_back/r_bracer
+bounds: 92,384,86,98
+r_upper
+bounds: 182,384,111,94
+view_back/r_upper
+bounds: 297,384,111,94
+view_back/r_hand
+bounds: 427,319,74,75
+
+char2_3.png
+size: 512,512
+filter: Linear,Linear
+pma: false
+spear3
+bounds: 2,2,44,313
+view_back/head
+bounds: 50,2,447,310
+view_back/skirt
+bounds: 50,316,386,185
+
+char2_4.png
+size: 512,512
+filter: Linear,Linear
+pma: false
+head
+bounds: 2,2,327,310
+view_back/l_arm
+bounds: 333,2,170,248
+r_leg
+bounds: 333,254,154,218
+skirt
+bounds: 2,316,296,185
+
+char2_5.png
+size: 512,512
+filter: Linear,Linear
+pma: false
+view_back/r_leg
+bounds: 2,2,154,218
+l_leg
+bounds: 160,2,150,213
+view_back/l_leg
+bounds: 314,2,150,213
+l_arm
+bounds: 160,219,71,206
+view_back/torso
+bounds: 235,219,241,203
+
+char2_6.png
+size: 512,512
+filter: Linear,Linear
+pma: false
+torso
+bounds: 2,2,211,203
