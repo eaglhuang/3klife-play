@@ -1,0 +1,20 @@
+soldier_engineer_blue.png
+size: 512,512
+filter: Linear,Linear
+pma: false
+weapon_sword
+bounds: 2,2,120,322
+head
+bounds: 126,2,225,190
+torso
+bounds: 355,2,132,155
+leg_f
+bounds: 2,328,92,148
+leg_n
+bounds: 98,328,73,146
+shield
+bounds: 175,328,93,132
+arm_n
+bounds: 272,328,57,108
+arm_f
+bounds: 333,328,50,106
