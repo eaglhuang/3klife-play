@@ -54,7 +54,21 @@
 <script src="src/import-map.json" type="systemjs-importmap" charset="utf-8"> </script>
 
 <script>
-    System.import('./index.js').catch(function(err) { console.error(err); })
+    // PROG-2-9153：Pages 檔案快取 10 分鐘，舊 index.html 也要能啟動最新版，所以先問 version.json（網址每次不同，一定打到網路）
+    (function () {
+        var baked = "0aaccd9bf";
+        var started = false;
+        function start(id) {
+            if (started) return;
+            started = true;
+            System.import('./index.' + id + '.js').catch(function (err) { console.error(err); });
+        }
+        var timer = setTimeout(function () { start(baked); }, 3000);
+        fetch('version.json?_=' + Date.now(), { cache: 'no-store' })
+            .then(function (r) { return r.json(); })
+            .then(function (v) { clearTimeout(timer); start(v && v.id ? v.id : baked); })
+            .catch(function () { clearTimeout(timer); start(baked); });
+    })();
 </script>
     <script src="responsive-frame.js"></script>
   </body>
