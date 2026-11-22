@@ -1,0 +1,1 @@
+[1,0,0,[["cc.JsonAsset",["_name","json"],1]],[[0,0,1,3]],[[0,"battle-burn",{"version":1,"fireSkillTag":"fire","burn":{"maxHpRatioPerTurn":0.04,"durationTurns":2,"stackCap":3,"damageScalesWithStacks":true,"spreads":false},"fireTile":{"durationTurns":2}}]],0,0,[],[],[]]
