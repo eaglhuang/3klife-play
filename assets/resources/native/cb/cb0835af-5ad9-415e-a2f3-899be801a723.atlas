@@ -1,0 +1,63 @@
+soldier_cavalry_blue_1.png
+size: 512,512
+filter: Linear,Linear
+pma: false
+weapon_spear
+bounds: 2,2,21,503
+torso
+bounds: 27,2,168,177
+leg_n
+bounds: 199,2,92,175
+leg_f
+bounds: 295,2,92,175
+
+soldier_cavalry_blue_2.png
+size: 512,512
+filter: Linear,Linear
+pma: false
+head
+bounds: 2,2,171,169
+arm_n
+bounds: 177,2,114,119
+arm_f
+bounds: 295,2,114,119
+
+mount_horse_sheet_1.png
+size: 512,512
+filter: Linear,Linear
+pma: false
+mount_horse_sheet_head
+bounds: 2,2,152,145
+mount_horse_sheet_body
+bounds: 158,2,232,137
+mount_horse_sheet_saddle_gear
+bounds: 2,151,232,137
+mount_horse_sheet_saddle_stirrup
+bounds: 238,151,232,137
+mount_horse_sheet_body__fore_cover
+bounds: 2,292,232,137
+mount_horse_sheet_neck
+bounds: 238,292,113,116
+mount_horse_sheet_fn_continuous
+bounds: 355,292,32,93
+mount_horse_sheet_fn_continuous__front
+bounds: 391,292,32,93
+mount_horse_sheet_hn_continuous
+bounds: 427,292,37,92
+mount_horse_sheet_hf_continuous
+bounds: 468,292,36,92
+
+mount_horse_sheet_2.png
+size: 512,512
+filter: Linear,Linear
+pma: false
+mount_horse_sheet_ff_continuous
+bounds: 2,2,34,92
+mount_horse_sheet_hn_continuous__front
+bounds: 40,2,37,92
+mount_horse_sheet_tail
+bounds: 81,2,83,80
+mount_horse_sheet_stirrup
+bounds: 168,2,32,37
+mount_horse_sheet_head_throat_underlay
+bounds: 204,2,28,22
