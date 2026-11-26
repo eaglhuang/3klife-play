@@ -130,3 +130,10 @@ filter: Linear,Linear
 pma: false
 leg_n_seated
 bounds: 2,2,129,244
+
+soldier_cavalry_blue__mount_horse_bay_foreground_bright_weapon_spear.png
+size: 512,512
+filter: Linear,Linear
+pma: false
+foreground_bright_weapon_spear
+bounds: 2,2,21,503
