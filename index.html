@@ -1,53 +1,50 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-
-  <title>Cocos Creator | NewProject</title>
-
-  <!--http://www.html5rocks.com/en/mobile/mobifying/-->
-  <meta name="viewport"
-        content="width=device-width,user-scalable=no,initial-scale=1,minimum-scale=1,maximum-scale=1,minimal-ui=true"/>
-
-  <!--https://developer.apple.com/library/safari/documentation/AppleApplications/Reference/SafariHTMLRef/Articles/MetaTags.html-->
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-  <meta name="format-detection" content="telephone=no">
-
-  <!-- force webkit on 360 -->
-  <meta name="renderer" content="webkit"/>
-  <meta name="force-rendering" content="webkit"/>
-  <!-- force edge on IE -->
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
-  <meta name="msapplication-tap-highlight" content="no">
-
-  <!-- force full screen on some browser -->
-  <meta name="full-screen" content="yes"/>
-  <meta name="x5-fullscreen" content="true"/>
-  <meta name="360-fullscreen" content="true"/>
-
-  <!--fix fireball/issues/3568 -->
-  <!--<meta name="browsermode" content="application">-->
-  <meta name="x5-page-mode" content="app">
-
-  <!--<link rel="apple-touch-icon" href=".png" />-->
-  <!--<link rel="apple-touch-icon-precomposed" href=".png" />-->
-
-  <link rel="stylesheet" type="text/css" href="style.css"/>
-
-</head>
-<body>
-  <div id="GameDiv" cc_exact_fit_screen="true">
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8">
+    <title>NewProject</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="manifest" href="manifest.webmanifest">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <link rel="preload" as="image" href="boot-bg.jpg">
+    <link rel="icon" href="favicon.ico">
+    <link rel="apple-touch-icon" href="favicon.ico">
+  </head>
+  <body>
+    <!-- 引擎與標題載入前先鋪標題底圖（PROG-2-2240），標題掛好後由 LoginScene 移除；大小同 GameDiv，鋪滿視窗。 -->
+    <div id="web-boot-backdrop" aria-hidden="true"></div>
+    <!-- 先於引擎下載顯示；沒有可知總量，不捏造百分比。 -->
+    <div id="web-boot-progress" role="status" aria-live="polite"
+      style="position:fixed;left:10%;right:10%;bottom:12%;text-align:center;color:#e8d9a8;font:16px/1.6 sans-serif;z-index:2147483646;pointer-events:none">
+      正在啟動遊戲…初次載入可能需要較久，請稍候。
+    </div>
+    <script>
+      (function () {
+        function bootFailed() {
+          var status = document.getElementById('web-boot-progress');
+          if (status) status.textContent = '啟動遇到問題，若持續停留請重新整理。';
+        }
+        window.addEventListener('error', bootFailed);
+        window.addEventListener('unhandledrejection', bootFailed);
+        window.addEventListener('3klife-boot-ready', function () {
+          window.removeEventListener('error', bootFailed);
+          window.removeEventListener('unhandledrejection', bootFailed);
+        }, { once: true });
+      })();
+    </script>
+    <div id="GameDiv" cc_exact_fit_screen="false">
       <div id="Cocos3dGameContainer">
-        <canvas id="GameCanvas" oncontextmenu="event.preventDefault()" tabindex="99"></canvas>
+        <canvas id="GameCanvas" tabindex="0" aria-label="3KLife 遊戲畫面"></canvas>
       </div>
     </div>
-  
+    <!-- Polyfills bundle. -->
 
-<!-- Polyfills bundle. -->
-
-<script src="src/polyfills.bundle.js" charset="utf-8"> </script>
+<script src="src/polyfills.bundle.js" charset="utf-8"> </script>    
 
 
 <!-- SystemJS support. -->
@@ -59,7 +56,7 @@
 <script>
     // PROG-2-9153：Pages 檔案快取 10 分鐘，舊 index.html 也要能啟動最新版，所以先問 version.json（網址每次不同，一定打到網路）
     (function () {
-        var baked = "bb123248f";
+        var baked = "8ee608a14";
         var started = false;
         function start(id) {
             if (started) return;
@@ -73,6 +70,6 @@
             .catch(function () { clearTimeout(timer); start(baked); });
     })();
 </script>
-
-</body>
+    <script src="responsive-frame.js"></script>
+  </body>
 </html>

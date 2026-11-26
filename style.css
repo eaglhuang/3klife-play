@@ -1,56 +1,34 @@
-html {
-  -ms-touch-action: none;
-}
-
-body, canvas, div {
-  display: block;
-  outline: none;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-
-  user-select: none;
-  -moz-user-select: none;
-  -webkit-user-select: none;
-  -ms-user-select: none;
-  -khtml-user-select: none;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-}
-
-/* Remove spin of input type number */
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
-    /* display: none; <- Crashes Chrome on hover */
-    -webkit-appearance: none;
-    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
-}
-
-body {
-  position: absolute;
-  top: 0;
-  left: 0;
+html, body {
   width: 100%;
   height: 100%;
+  min-height: 100dvh;
+  margin: 0;
   padding: 0;
+  overflow: hidden;
+  background: #0d0a06 url("boot-bg.jpg") center / cover no-repeat;
+}
+
+/* Fill the window, including areas wider than 16:9.
+   The engine uses FIXED_HEIGHT on wide screens; UI stays in the design safe area. */
+#GameDiv {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
   border: 0;
   margin: 0;
-
-  cursor: default;
-  color: #888;
-  background-color: #333;
-
-  text-align: center;
-  font-family: Helvetica, Verdana, Arial, sans-serif;
-
-  display: flex;
-  flex-direction: column;
+  padding: 0;
 }
 
-canvas {
-  background-color: rgba(0, 0, 0, 0);
-}
-
-#GameDiv, #Cocos3dGameContainer, #GameCanvas {
+#Cocos3dGameContainer, #GameCanvas {
+  display: block;
   width: 100%;
   height: 100%;
+  outline: none;
+  touch-action: none;
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-tap-highlight-color: transparent;
 }
 
 :root {
@@ -58,4 +36,16 @@ canvas {
   --safe-right: env(safe-area-inset-right);
   --safe-bottom: env(safe-area-inset-bottom);
   --safe-left: env(safe-area-inset-left);
+}
+
+/* 啟動底圖：與 #GameDiv 同樣鋪滿視窗，標題掛好後移除（PROG-2-2240） */
+#web-boot-backdrop {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  background: #0d0a06 url("boot-bg.jpg") center / cover no-repeat;
+  z-index: 2147483645;
+  pointer-events: none;
+  transition: opacity .35s ease-out;
 }
