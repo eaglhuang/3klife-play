@@ -1,0 +1,1 @@
+[1,0,0,[["cc.JsonAsset",["_name","json"],1]],[[0,0,1,3]],[[0,"life-street-open",{"schema":"life-street-open.v1","note":"市井大街開放條件（QSOC-01 第 9.5 節，使用者 11/28 裁決：第一季中段教學開放，第一場戰鬥後由家臣帶主角逛一次）。首訪任務（StreetFirstVisit，PROG-2-10229）已實作，tutorialEscortRequired 已改 true：家臣帶逛完才算大街開放。","openAfterFirstBattle":true,"openSeasonMin":1,"tutorialEscortRequired":true}]],0,0,[],[],[]]
